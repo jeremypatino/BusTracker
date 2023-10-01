@@ -1,4 +1,4 @@
-### MTBA Bus Tracker
+#### MTBA Bus Tracker
 
 
 MTBA buses are tracked in realtime utilizing a Google Maps API to display markers for bus location every 15 seconds.

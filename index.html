@@ -1,1 +1,16 @@
-
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MBTA Bus Tracker</title>
+        <script async src="https://maps.googleapis.com/maps/api/js?key=&callback=console.debug&libraries=maps,marker&v=beta"></script>
+        <script src="./mapanimation.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <gmp-map id="map" center="42.35708236694336,-71.0928726196289" zoom="14" map-id="tracker">
+            <gmp-advanced-marker id="marker" position="42.35708236694336,-71.0928726196289" title="Bus"></gmp-advanced-marker>
+        </gmp-map>
+    </body>
+</html>
